@@ -1,0 +1,90 @@
+body {
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 130px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.line {
+    border-left: 1px solid white;
+    height: 40px;
+    position: relative;
+    right: 40px;
+    top: 8px;
+}
+
+.grow-list {
+    position: relative;
+    left: 40px;
+}
+
+.list {
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+    position: relative;
+    right: 200px;
+  }
+
+.list-item {
+    margin-inline: 30px;
+    position: relative;
+    top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button-small {
+    background-color: rgb(234, 42, 234);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    position: relative;
+    top: 10px;
+}
+
+.hero {
+   text-align: center;
+   position: relative;
+   top: 30px;
+}
+
+.hero-heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.hero-description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.button-large {
+    background-color: rgb(234, 42, 234);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
